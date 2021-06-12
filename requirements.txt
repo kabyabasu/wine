@@ -1,6 +1,13 @@
-dvc[gdrive]
+# local package install
+-e .
+
+# third party packages
 dvc
+dvc[gdrive]
+sklearn
 pandas
 pytest
 tox
-sklearn
+flake8
+flask
+gunicorn
